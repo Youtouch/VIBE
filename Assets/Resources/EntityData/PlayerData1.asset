@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32091cd1a9b7f514c9c4f38329c59148, type: 3}
+  m_Name: PlayerData1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  baseMovementSpeed: 10
+  maxMovementSpeed: 50
+  minMovementSpeed: 5
+  baseJumpStrenght: 12
+  minJumpStrenght: 5
+  maxJumpStrenght: 20
+  maxFallSpeed: 30
+  gravityForce: -30
+  maxJumpTime: 0.3
+  jumpForceOverTime: 17
+  hoverStrenght: 2
+  baseMaxThrowStrenght: 30
+  minThrowStrenght: 5
+  maxThrowStrenght: 50
+  throwAngle: 45
+  grapDistanceModifier: 0.1
+  buildUpMax: 30
+  buildUpMin: 5
+  buildUpRate: 0.2
+  timeHugAttack: 3
+  timeHugDefend: 2
+  throwBuildUpVFX: {fileID: 4511186586665291748, guid: 53754a42bfc18714e8a67ca5dd889175,
+    type: 3}
+  arrowVFX: {fileID: 4370503080952874742, guid: 82b0e8aa62350f142ac183ceee71c182,
+    type: 3}
+  heartVFX: {fileID: 6118068167622849662, guid: aa69ff7304de51047b350fcb13603804,
+    type: 3}
+  airVFX: {fileID: 7488525095876939439, guid: bc79c40620465f2429d5fce4f9d84134, type: 3}

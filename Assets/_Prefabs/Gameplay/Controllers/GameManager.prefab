@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &185065320029558703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 185065320029558702}
+  - component: {fileID: 185065320029558701}
+  - component: {fileID: 1098510073}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &185065320029558702
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185065320029558703}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &185065320029558701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185065320029558703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b251b7becb4e5db47a659b4f36d17809, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  m_Phase: 0
+  m_State: 0
+  m_Mode: 1
+--- !u!114 &1098510073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185065320029558703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f728ecf91a435ae498d3549224cf9794, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 2552544237365273048, guid: ba493b2ecb6d23f43995832359d73fc8, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_PlayerPool
+      Entry: 7
+      Data: 0|ObjectPool`1[[PlayerController, Assembly-CSharp]], Assembly-CSharp
+    - Name: pool
+      Entry: 6
+      Data: 
+    - Name: rented
+      Entry: 6
+      Data: 
+    - Name: poolSize
+      Entry: 3
+      Data: 4
+    - Name: prefab
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_PlayerTrackers
+      Entry: 7
+      Data: 1|PlayerTracker[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: PlayerTracker, Assembly-CSharp
+    - Name: hugs
+      Entry: 3
+      Data: 0
+    - Name: builder
+      Entry: 3
+      Data: 0
+    - Name: rogue
+      Entry: 3
+      Data: 0
+    - Name: jumper
+      Entry: 3
+      Data: 0
+    - Name: winner
+      Entry: 3
+      Data: 0
+    - Name: thrower
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: PlayerTracker, Assembly-CSharp
+    - Name: hugs
+      Entry: 3
+      Data: 0
+    - Name: builder
+      Entry: 3
+      Data: 0
+    - Name: rogue
+      Entry: 3
+      Data: 0
+    - Name: jumper
+      Entry: 3
+      Data: 0
+    - Name: winner
+      Entry: 3
+      Data: 0
+    - Name: thrower
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: PlayerTracker, Assembly-CSharp
+    - Name: hugs
+      Entry: 3
+      Data: 0
+    - Name: builder
+      Entry: 3
+      Data: 0
+    - Name: rogue
+      Entry: 3
+      Data: 0
+    - Name: jumper
+      Entry: 3
+      Data: 0
+    - Name: winner
+      Entry: 3
+      Data: 0
+    - Name: thrower
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: PlayerTracker, Assembly-CSharp
+    - Name: hugs
+      Entry: 3
+      Data: 0
+    - Name: builder
+      Entry: 3
+      Data: 0
+    - Name: rogue
+      Entry: 3
+      Data: 0
+    - Name: jumper
+      Entry: 3
+      Data: 0
+    - Name: winner
+      Entry: 3
+      Data: 0
+    - Name: thrower
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  m_Buffs: []
+  chapeau:
+  - {fileID: 0}
+  - {fileID: 7602750708392115270, guid: 2c76ec1c93c23b845979d5dfd08491e6, type: 3}
+  - {fileID: 6322824855443315646, guid: 8cf813629f024a1489524cdb411c0118, type: 3}
+  - {fileID: 3506356798859601192, guid: da13a7544072400408432f729185e6b3, type: 3}
+  playerMat:
+  - {fileID: 2100000, guid: 4fe84e43da61ddc4db232517d76b1adc, type: 2}
+  - {fileID: 2100000, guid: c7c3b670e77fba84b9c9697aae6088fa, type: 2}
+  - {fileID: 2100000, guid: ba7c8e93988a89b4ca76bcad46fdb581, type: 2}
+  - {fileID: 2100000, guid: e03b136ea3d3cbb47a857312c88ab2f1, type: 2}

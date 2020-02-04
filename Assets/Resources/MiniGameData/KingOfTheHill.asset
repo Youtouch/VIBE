@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31386e1a760198c42aba0d2f3e963132, type: 3}
+  m_Name: KingOfTheHill
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  type: 1
+  reward: {fileID: 11400000, guid: 083b119ecb89d884780240150f8bd8bb, type: 2}
+  levelScrollingType: 4
+  cameraScrollingType: 1
+  image: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  description: "Soit le premier \xE0 faire des bisous \xE0 la princesse"
+  title: King of the hill
+  hasTimeLimit: 1
+  timeLimit: 45
+  hasScoreToReach: 1
+  scoreToReach: 5
+  pointsPerSecond: 1
+  timeBeforeScrolling: 0
+  baseLevelScrollSpeed: 0
+  maxLevelScrollSpeed: 0
+  timeToReachMaxSpeed: 1
+  stopsScrollingAfterTime: 1
+  timeBeforeStopScroll: 0
+  m_WorldScrollingType: 2
+  timeBeforeRemoveGround: 0

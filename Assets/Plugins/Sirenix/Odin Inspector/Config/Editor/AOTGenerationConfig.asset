@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1726182683, guid: a4865f1ab4504ed8a368670db22f409c, type: 3}
+  m_Name: AOTGenerationConfig
+  m_EditorClassIdentifier: 
+  automateBeforeBuilds: 1
+  deleteDllAfterBuilds: 1
+  AutomateForAllAOTPlatforms: 1
+  automateForPlatforms: 0900000014000000
+  lastScan: 637163488896280418
+  supportSerializedTypes:
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32,
+      mscorlib]], mscorlib
+    IsCustom: 1
+    Emit: 1
+  - TypeName: System.Int32, mscorlib
+    IsCustom: 1
+    Emit: 1
+  - TypeName: System.String, mscorlib
+    IsCustom: 1
+    Emit: 1
+  - TypeName: UnityEngine.AudioSource, UnityEngine.AudioModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.AudioSource[], UnityEngine.AudioModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CameraPositionToDistance, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[PlayerTrackerVariable, Assembly-CSharp],[System.String,
+      mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: EndGameCard, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: EndGameCard[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[PlayerTrackerVariable,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Single, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.GameObject, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[PlayerTrackerVariable,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Int32, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[MiniGameScore, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MiniGameData, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MiniGameScore, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Object, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ObjectPool`1[[UnityEngine.AudioSource, UnityEngine.AudioModule]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ObjectPool`1[[EndGameCard, Assembly-CSharp]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ObjectPool`1[[PlayerController, Assembly-CSharp]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ObjectPool`1[[PlayerScoreCard, Assembly-CSharp]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PlayerController, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PlayerController[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PlayerScore[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PlayerScoreCard, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PlayerScoreCard[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PlayerTracker, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PlayerTracker[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PlayerTrackerVariable, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.String, mscorlib
+    IsCustom: 0
+    Emit: 1
